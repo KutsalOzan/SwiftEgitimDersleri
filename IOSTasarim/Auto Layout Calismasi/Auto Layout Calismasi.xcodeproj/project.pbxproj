@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		525AF4AC2D6121DE003879C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525AF48D2D6121DD003879C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525AF4942D6121DD003879C7;
+			remoteInfo = "Auto Layout Calismasi";
+		};
+		525AF4B62D6121DE003879C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525AF48D2D6121DD003879C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525AF4942D6121DD003879C7;
+			remoteInfo = "Auto Layout Calismasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		525AF4952D6121DD003879C7 /* Auto Layout Calismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Calismasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525AF4AB2D6121DE003879C7 /* Auto Layout CalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto Layout CalismasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525AF4B52D6121DE003879C7 /* Auto Layout CalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Auto Layout CalismasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		525AF4BD2D6121DE003879C7 /* Exceptions for "Auto Layout Calismasi" folder in "Auto Layout Calismasi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 525AF4942D6121DD003879C7 /* Auto Layout Calismasi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		525AF4972D6121DD003879C7 /* Auto Layout Calismasi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				525AF4BD2D6121DE003879C7 /* Exceptions for "Auto Layout Calismasi" folder in "Auto Layout Calismasi" target */,
+			);
+			path = "Auto Layout Calismasi";
+			sourceTree = "<group>";
+		};
+		525AF4AE2D6121DE003879C7 /* Auto Layout CalismasiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Auto Layout CalismasiTests";
+			sourceTree = "<group>";
+		};
+		525AF4B82D6121DE003879C7 /* Auto Layout CalismasiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Auto Layout CalismasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525AF4922D6121DD003879C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AF4A82D6121DE003879C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AF4B22D6121DE003879C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525AF48C2D6121DD003879C7 = {
+			isa = PBXGroup;
+			children = (
+				525AF4972D6121DD003879C7 /* Auto Layout Calismasi */,
+				525AF4AE2D6121DE003879C7 /* Auto Layout CalismasiTests */,
+				525AF4B82D6121DE003879C7 /* Auto Layout CalismasiUITests */,
+				525AF4962D6121DD003879C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525AF4962D6121DD003879C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525AF4952D6121DD003879C7 /* Auto Layout Calismasi.app */,
+				525AF4AB2D6121DE003879C7 /* Auto Layout CalismasiTests.xctest */,
+				525AF4B52D6121DE003879C7 /* Auto Layout CalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525AF4942D6121DD003879C7 /* Auto Layout Calismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525AF4BE2D6121DE003879C7 /* Build configuration list for PBXNativeTarget "Auto Layout Calismasi" */;
+			buildPhases = (
+				525AF4912D6121DD003879C7 /* Sources */,
+				525AF4922D6121DD003879C7 /* Frameworks */,
+				525AF4932D6121DD003879C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				525AF4972D6121DD003879C7 /* Auto Layout Calismasi */,
+			);
+			name = "Auto Layout Calismasi";
+			packageProductDependencies = (
+			);
+			productName = "Auto Layout Calismasi";
+			productReference = 525AF4952D6121DD003879C7 /* Auto Layout Calismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525AF4AA2D6121DE003879C7 /* Auto Layout CalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525AF4C32D6121DE003879C7 /* Build configuration list for PBXNativeTarget "Auto Layout CalismasiTests" */;
+			buildPhases = (
+				525AF4A72D6121DE003879C7 /* Sources */,
+				525AF4A82D6121DE003879C7 /* Frameworks */,
+				525AF4A92D6121DE003879C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525AF4AD2D6121DE003879C7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				525AF4AE2D6121DE003879C7 /* Auto Layout CalismasiTests */,
+			);
+			name = "Auto Layout CalismasiTests";
+			packageProductDependencies = (
+			);
+			productName = "Auto Layout CalismasiTests";
+			productReference = 525AF4AB2D6121DE003879C7 /* Auto Layout CalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525AF4B42D6121DE003879C7 /* Auto Layout CalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525AF4C62D6121DE003879C7 /* Build configuration list for PBXNativeTarget "Auto Layout CalismasiUITests" */;
+			buildPhases = (
+				525AF4B12D6121DE003879C7 /* Sources */,
+				525AF4B22D6121DE003879C7 /* Frameworks */,
+				525AF4B32D6121DE003879C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525AF4B72D6121DE003879C7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				525AF4B82D6121DE003879C7 /* Auto Layout CalismasiUITests */,
+			);
+			name = "Auto Layout CalismasiUITests";
+			packageProductDependencies = (
+			);
+			productName = "Auto Layout CalismasiUITests";
+			productReference = 525AF4B52D6121DE003879C7 /* Auto Layout CalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525AF48D2D6121DD003879C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					525AF4942D6121DD003879C7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					525AF4AA2D6121DE003879C7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 525AF4942D6121DD003879C7;
+					};
+					525AF4B42D6121DE003879C7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 525AF4942D6121DD003879C7;
+					};
+				};
+			};
+			buildConfigurationList = 525AF4902D6121DD003879C7 /* Build configuration list for PBXProject "Auto Layout Calismasi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525AF48C2D6121DD003879C7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 525AF4962D6121DD003879C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525AF4942D6121DD003879C7 /* Auto Layout Calismasi */,
+				525AF4AA2D6121DE003879C7 /* Auto Layout CalismasiTests */,
+				525AF4B42D6121DE003879C7 /* Auto Layout CalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525AF4932D6121DD003879C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AF4A92D6121DE003879C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AF4B32D6121DE003879C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525AF4912D6121DD003879C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AF4A72D6121DE003879C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AF4B12D6121DE003879C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525AF4AD2D6121DE003879C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525AF4942D6121DD003879C7 /* Auto Layout Calismasi */;
+			targetProxy = 525AF4AC2D6121DE003879C7 /* PBXContainerItemProxy */;
+		};
+		525AF4B72D6121DE003879C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525AF4942D6121DD003879C7 /* Auto Layout Calismasi */;
+			targetProxy = 525AF4B62D6121DE003879C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		525AF4BF2D6121DE003879C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto Layout Calismasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Auto-Layout-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525AF4C02D6121DE003879C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Auto Layout Calismasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Auto-Layout-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		525AF4C12D6121DE003879C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525AF4C22D6121DE003879C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525AF4C42D6121DE003879C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Auto-Layout-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auto Layout Calismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Auto Layout Calismasi";
+			};
+			name = Debug;
+		};
+		525AF4C52D6121DE003879C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Auto-Layout-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Auto Layout Calismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Auto Layout Calismasi";
+			};
+			name = Release;
+		};
+		525AF4C72D6121DE003879C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Auto-Layout-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Auto Layout Calismasi";
+			};
+			name = Debug;
+		};
+		525AF4C82D6121DE003879C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Auto-Layout-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Auto Layout Calismasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525AF4902D6121DD003879C7 /* Build configuration list for PBXProject "Auto Layout Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525AF4C12D6121DE003879C7 /* Debug */,
+				525AF4C22D6121DE003879C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525AF4BE2D6121DE003879C7 /* Build configuration list for PBXNativeTarget "Auto Layout Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525AF4BF2D6121DE003879C7 /* Debug */,
+				525AF4C02D6121DE003879C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525AF4C32D6121DE003879C7 /* Build configuration list for PBXNativeTarget "Auto Layout CalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525AF4C42D6121DE003879C7 /* Debug */,
+				525AF4C52D6121DE003879C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525AF4C62D6121DE003879C7 /* Build configuration list for PBXNativeTarget "Auto Layout CalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525AF4C72D6121DE003879C7 /* Debug */,
+				525AF4C82D6121DE003879C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525AF48D2D6121DD003879C7 /* Project object */;
+}

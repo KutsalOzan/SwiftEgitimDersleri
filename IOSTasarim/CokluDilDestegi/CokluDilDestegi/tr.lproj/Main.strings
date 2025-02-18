@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "E45-PN-kLX"; */
+"E45-PN-kLX.text" = "Merhaba";
+
+/* Class = "UIButton"; configuration.title = "English"; ObjectID = "FQF-sh-jgM"; */
+"FQF-sh-jgM.configuration.title" = "Ingilizce";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FQF-sh-jgM"; */
+"FQF-sh-jgM.normalTitle" = "Button";

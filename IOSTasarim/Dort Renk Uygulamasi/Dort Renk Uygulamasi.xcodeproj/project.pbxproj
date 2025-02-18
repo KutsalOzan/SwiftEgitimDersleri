@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5282DBAE2D6206CD00003D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5282DB8F2D6206CB00003D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5282DB962D6206CB00003D71;
+			remoteInfo = "Dort Renk Uygulamasi";
+		};
+		5282DBB82D6206CD00003D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5282DB8F2D6206CB00003D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5282DB962D6206CB00003D71;
+			remoteInfo = "Dort Renk Uygulamasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5282DB972D6206CB00003D71 /* Dort Renk Uygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dort Renk Uygulamasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5282DBAD2D6206CD00003D71 /* Dort Renk UygulamasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dort Renk UygulamasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5282DBB72D6206CD00003D71 /* Dort Renk UygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dort Renk UygulamasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5282DBBF2D6206CD00003D71 /* Exceptions for "Dort Renk Uygulamasi" folder in "Dort Renk Uygulamasi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5282DB962D6206CB00003D71 /* Dort Renk Uygulamasi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5282DB992D6206CB00003D71 /* Dort Renk Uygulamasi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5282DBBF2D6206CD00003D71 /* Exceptions for "Dort Renk Uygulamasi" folder in "Dort Renk Uygulamasi" target */,
+			);
+			path = "Dort Renk Uygulamasi";
+			sourceTree = "<group>";
+		};
+		5282DBB02D6206CD00003D71 /* Dort Renk UygulamasiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dort Renk UygulamasiTests";
+			sourceTree = "<group>";
+		};
+		5282DBBA2D6206CD00003D71 /* Dort Renk UygulamasiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Dort Renk UygulamasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5282DB942D6206CB00003D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5282DBAA2D6206CD00003D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5282DBB42D6206CD00003D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5282DB8E2D6206CB00003D71 = {
+			isa = PBXGroup;
+			children = (
+				5282DB992D6206CB00003D71 /* Dort Renk Uygulamasi */,
+				5282DBB02D6206CD00003D71 /* Dort Renk UygulamasiTests */,
+				5282DBBA2D6206CD00003D71 /* Dort Renk UygulamasiUITests */,
+				5282DB982D6206CB00003D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5282DB982D6206CB00003D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5282DB972D6206CB00003D71 /* Dort Renk Uygulamasi.app */,
+				5282DBAD2D6206CD00003D71 /* Dort Renk UygulamasiTests.xctest */,
+				5282DBB72D6206CD00003D71 /* Dort Renk UygulamasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5282DB962D6206CB00003D71 /* Dort Renk Uygulamasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5282DBC02D6206CD00003D71 /* Build configuration list for PBXNativeTarget "Dort Renk Uygulamasi" */;
+			buildPhases = (
+				5282DB932D6206CB00003D71 /* Sources */,
+				5282DB942D6206CB00003D71 /* Frameworks */,
+				5282DB952D6206CB00003D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5282DB992D6206CB00003D71 /* Dort Renk Uygulamasi */,
+			);
+			name = "Dort Renk Uygulamasi";
+			packageProductDependencies = (
+			);
+			productName = "Dort Renk Uygulamasi";
+			productReference = 5282DB972D6206CB00003D71 /* Dort Renk Uygulamasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5282DBAC2D6206CD00003D71 /* Dort Renk UygulamasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5282DBC52D6206CD00003D71 /* Build configuration list for PBXNativeTarget "Dort Renk UygulamasiTests" */;
+			buildPhases = (
+				5282DBA92D6206CD00003D71 /* Sources */,
+				5282DBAA2D6206CD00003D71 /* Frameworks */,
+				5282DBAB2D6206CD00003D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5282DBAF2D6206CD00003D71 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5282DBB02D6206CD00003D71 /* Dort Renk UygulamasiTests */,
+			);
+			name = "Dort Renk UygulamasiTests";
+			packageProductDependencies = (
+			);
+			productName = "Dort Renk UygulamasiTests";
+			productReference = 5282DBAD2D6206CD00003D71 /* Dort Renk UygulamasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5282DBB62D6206CD00003D71 /* Dort Renk UygulamasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5282DBC82D6206CD00003D71 /* Build configuration list for PBXNativeTarget "Dort Renk UygulamasiUITests" */;
+			buildPhases = (
+				5282DBB32D6206CD00003D71 /* Sources */,
+				5282DBB42D6206CD00003D71 /* Frameworks */,
+				5282DBB52D6206CD00003D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5282DBB92D6206CD00003D71 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5282DBBA2D6206CD00003D71 /* Dort Renk UygulamasiUITests */,
+			);
+			name = "Dort Renk UygulamasiUITests";
+			packageProductDependencies = (
+			);
+			productName = "Dort Renk UygulamasiUITests";
+			productReference = 5282DBB72D6206CD00003D71 /* Dort Renk UygulamasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5282DB8F2D6206CB00003D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5282DB962D6206CB00003D71 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5282DBAC2D6206CD00003D71 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5282DB962D6206CB00003D71;
+					};
+					5282DBB62D6206CD00003D71 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5282DB962D6206CB00003D71;
+					};
+				};
+			};
+			buildConfigurationList = 5282DB922D6206CB00003D71 /* Build configuration list for PBXProject "Dort Renk Uygulamasi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5282DB8E2D6206CB00003D71;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5282DB982D6206CB00003D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5282DB962D6206CB00003D71 /* Dort Renk Uygulamasi */,
+				5282DBAC2D6206CD00003D71 /* Dort Renk UygulamasiTests */,
+				5282DBB62D6206CD00003D71 /* Dort Renk UygulamasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5282DB952D6206CB00003D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5282DBAB2D6206CD00003D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5282DBB52D6206CD00003D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5282DB932D6206CB00003D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5282DBA92D6206CD00003D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5282DBB32D6206CD00003D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5282DBAF2D6206CD00003D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5282DB962D6206CB00003D71 /* Dort Renk Uygulamasi */;
+			targetProxy = 5282DBAE2D6206CD00003D71 /* PBXContainerItemProxy */;
+		};
+		5282DBB92D6206CD00003D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5282DB962D6206CB00003D71 /* Dort Renk Uygulamasi */;
+			targetProxy = 5282DBB82D6206CD00003D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5282DBC12D6206CD00003D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dort Renk Uygulamasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Dort-Renk-Uygulamasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5282DBC22D6206CD00003D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dort Renk Uygulamasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Dort-Renk-Uygulamasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5282DBC32D6206CD00003D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5282DBC42D6206CD00003D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5282DBC62D6206CD00003D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Dort-Renk-UygulamasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dort Renk Uygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dort Renk Uygulamasi";
+			};
+			name = Debug;
+		};
+		5282DBC72D6206CD00003D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Dort-Renk-UygulamasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dort Renk Uygulamasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dort Renk Uygulamasi";
+			};
+			name = Release;
+		};
+		5282DBC92D6206CD00003D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Dort-Renk-UygulamasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dort Renk Uygulamasi";
+			};
+			name = Debug;
+		};
+		5282DBCA2D6206CD00003D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ozankutsal.Dort-Renk-UygulamasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dort Renk Uygulamasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5282DB922D6206CB00003D71 /* Build configuration list for PBXProject "Dort Renk Uygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5282DBC32D6206CD00003D71 /* Debug */,
+				5282DBC42D6206CD00003D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5282DBC02D6206CD00003D71 /* Build configuration list for PBXNativeTarget "Dort Renk Uygulamasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5282DBC12D6206CD00003D71 /* Debug */,
+				5282DBC22D6206CD00003D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5282DBC52D6206CD00003D71 /* Build configuration list for PBXNativeTarget "Dort Renk UygulamasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5282DBC62D6206CD00003D71 /* Debug */,
+				5282DBC72D6206CD00003D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5282DBC82D6206CD00003D71 /* Build configuration list for PBXNativeTarget "Dort Renk UygulamasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5282DBC92D6206CD00003D71 /* Debug */,
+				5282DBCA2D6206CD00003D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5282DB8F2D6206CB00003D71 /* Project object */;
+}

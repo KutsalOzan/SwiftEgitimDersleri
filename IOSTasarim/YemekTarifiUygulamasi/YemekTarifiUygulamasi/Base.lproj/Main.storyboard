@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YemekTarifiUygulamasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Makarna" translatesAutoresizingMaskIntoConstraints="NO" id="09L-IQ-MrC">
+                                <rect key="frame" x="0.0" y="59" width="393" height="235"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="V6T-c6-R16"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LHW-NA-ot0">
+                                <rect key="frame" x="0.0" y="294" width="393" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biber Pestolu Makarna" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGX-lU-MdV">
+                                        <rect key="frame" x="5" y="10" width="225.66666666666666" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Q92-jA-sH6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                                <constraints>
+                                    <constraint firstItem="yGX-lU-MdV" firstAttribute="top" secondItem="LHW-NA-ot0" secondAttribute="top" constant="10" id="K2y-gJ-o7f"/>
+                                    <constraint firstItem="yGX-lU-MdV" firstAttribute="leading" secondItem="LHW-NA-ot0" secondAttribute="leading" constant="5" id="MGn-Ve-eQ4"/>
+                                    <constraint firstAttribute="height" constant="50" id="hKM-ne-n1v"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yGX-lU-MdV" secondAttribute="trailing" constant="20" symbolic="YES" id="pUo-fV-b1J"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B79-xP-VPB">
+                                <rect key="frame" x="0.0" y="344" width="393" height="400"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jd0-ms-h2M">
+                                        <rect key="frame" x="5" y="5" width="383" height="224"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="224" id="Ti0-bN-kyu"/>
+                                        </constraints>
+                                        <string key="text">Biber pestolu makarna için makarnayı kaynar bol tuzlu suda haşlayıp altını kapatın.
+Sos malzemelerinin hepsini blenderdan geçirip pürüzsüz hale getirin.
+Makarnayı süzün ve hala çok sıcakken sosu üzerine döküp sürekli karıştırarak bütünleşmelerini sağlayın.
+Makarnayı servis tabaklarına alıp üzerine zeytinyağı gezdirin ve taze fesleğen yapraklarından ekleyip servis edin. Afiyet olsun!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Jd0-ms-h2M" secondAttribute="trailing" constant="5" id="0tk-JM-X22"/>
+                                    <constraint firstItem="Jd0-ms-h2M" firstAttribute="top" secondItem="B79-xP-VPB" secondAttribute="top" constant="5" id="Eig-HS-EIm"/>
+                                    <constraint firstItem="Jd0-ms-h2M" firstAttribute="leading" secondItem="B79-xP-VPB" secondAttribute="leading" constant="5" id="agJ-ng-dTt"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WY-Wh-LY4">
+                                <rect key="frame" x="16" y="752.33333333333337" width="361" height="45.666666666666629"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sonraki Tarif"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="09L-IQ-MrC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="631-Cw-mMQ"/>
+                            <constraint firstItem="5WY-Wh-LY4" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.06" id="Aam-zv-BrV"/>
+                            <constraint firstItem="B79-xP-VPB" firstAttribute="top" secondItem="LHW-NA-ot0" secondAttribute="bottom" id="Efz-mx-P64"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LHW-NA-ot0" secondAttribute="trailing" id="FVZ-6v-bob"/>
+                            <constraint firstItem="B79-xP-VPB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LKU-7x-Zi0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5WY-Wh-LY4" secondAttribute="trailing" constant="16" id="PJc-EJ-sAE"/>
+                            <constraint firstItem="LHW-NA-ot0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PN6-vw-avt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5WY-Wh-LY4" secondAttribute="bottom" constant="20" id="QFc-Q3-pwh"/>
+                            <constraint firstItem="5WY-Wh-LY4" firstAttribute="top" secondItem="B79-xP-VPB" secondAttribute="bottom" constant="8.3333333333334849" id="SRO-Xc-7tq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="09L-IQ-MrC" secondAttribute="trailing" id="TQl-zN-0Oi"/>
+                            <constraint firstItem="B79-xP-VPB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WL7-E1-Buo"/>
+                            <constraint firstItem="09L-IQ-MrC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eIa-Kg-jf9"/>
+                            <constraint firstItem="LHW-NA-ot0" firstAttribute="top" secondItem="09L-IQ-MrC" secondAttribute="bottom" id="ilv-N9-RUc"/>
+                            <constraint firstItem="5WY-Wh-LY4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mM0-1z-db0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Makarna" width="308" height="190.66667175292969"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
